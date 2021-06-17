@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="146dp" android:width="219dp" android:viewportWidth="219" android:viewportHeight="146">
+    <path android:fillColor="@drawable/$background_gift_card_brown__0" android:pathData="M209.267,0H9.733C4.358,0 0,4.358 0,9.733V136.267C0,141.642 4.358,146 9.733,146H209.267C214.642,146 219,141.642 219,136.267V9.733C219,4.358 214.642,0 209.267,0Z"/>
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:paddingBottom="@dimen/_16dp" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include android:id="@+id/layout_shipping_scrollable" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_16dp" layout="@layout/layout_shipping_method"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/rcv_products" android:paddingBottom="@dimen/_70dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include android:id="@+id/layout_shipping_fixed" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_16dp" layout="@layout/layout_shipping_method"/>
+    <include android:id="@+id/layout_floating_cart" android:visibility="gone" layout="@layout/layout_floating_cart"/>
+</RelativeLayout>

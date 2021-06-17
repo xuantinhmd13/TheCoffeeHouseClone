@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/__8dp" app:cardBackgroundColor="@color/colorWhite" app:cardCornerRadius="@dimen/_8dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/toolbar" layout="@layout/layout_sub_header_top_round_corner"/>
+        <androidx.core.widget.NestedScrollView android:paddingTop="@dimen/_32dp" android:paddingBottom="@dimen/_66dp" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/_16sp" android:textColor="@color/color333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8dp" android:text="@string/str_thank_you_for_your_feedback" android:fontFamily="@font/sfpt_regular"/>
+                <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_11dp" layout="@layout/layout_stars_rating"/>
+                <TextView android:textSize="@dimen/_16sp" android:textColor="@color/color333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_50dp" android:text="@string/str_what_is_not_good_enough" android:fontFamily="@font/sfpt_bold" style="@style/defaultTitleTextStyle"/>
+                <com.google.android.flexbox.FlexboxLayout android:id="@+id/layout_attentions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" app:alignContent="3" app:flexWrap="1"/>
+                <LinearLayout android:orientation="vertical" android:background="@drawable/background_corner_stroke_dark_gray" android:paddingTop="@dimen/_10dp" android:paddingBottom="@dimen/_10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_48dp" android:minHeight="@dimen/_205dp" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_share_your_ideas" style="@style/defaultContentTextStyle"/>
+                    <EditText android:gravity="top" android:id="@+id/edt_feedback_content" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_4dp" android:minHeight="@dimen/_200dp" android:hint="@string/str_share_your_ideas_hint" android:inputType="textMultiLine" android:backgroundTint="@color/colorTransparent" style="@style/defaultTitleTextStyle"/>
+                </LinearLayout>
+                <com.thecoffeehouse.guestapp.views.TLButton android:enabled="true" android:textSize="@dimen/_16sp" android:textColor="@color/colorWhite" android:id="@+id/btn_send_feedback" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/str_send_feedback" android:textAllCaps="false" android:fontFamily="@font/sfpt_bold" app:backgroundColor="@color/colorBBBBBB" app:corner_bot_left="@dimen/_8dp" app:corner_bot_right="@dimen/_8dp" app:corner_top_left="@dimen/_8dp" app:corner_top_right="@dimen/_8dp"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

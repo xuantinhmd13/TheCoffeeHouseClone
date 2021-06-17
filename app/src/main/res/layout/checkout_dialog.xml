@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" layout="@layout/layout_sub_header_top_round_corner"/>
+    <androidx.core.widget.NestedScrollView android:id="@+id/layout_checkout" android:background="@color/colorBackgroundWindow" android:paddingBottom="@dimen/_24dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_above="@+id/layout_floating_cart" android:layout_below="@+id/toolbar"/>
+    <include android:id="@+id/layout_floating_cart" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/layout_floating_cart"/>
+    <FrameLayout android:id="@+id/loading_layout" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

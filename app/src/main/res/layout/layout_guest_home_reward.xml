@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/img_guest_reward_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/guest_home_icon_reward_1"/>
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorTextTitle" android:id="@+id/txt_guest_reward_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/sfpd_bold" android:textAlignment="center"/>
+    <TextView android:textSize="@dimen/_14sp" android:textColor="@color/colorTextTitle" android:id="@+id/txt_guest_reward_body" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@font/sfpd_regular" android:textAlignment="center"/>
+</LinearLayout>

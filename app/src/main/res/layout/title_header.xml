@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="@dimen/_20sp" android:id="@+id/txt_title_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_music_playing" android:fontFamily="@font/sfpd_semibold" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/defaultTitleTextStyle"/>

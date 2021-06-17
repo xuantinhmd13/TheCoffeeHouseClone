@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/colorWhite" android:layout_width="match_parent" android:layout_height="@dimen/_52dp">
+    <ImageView android:layout_gravity="start" android:id="@+id/img_back" android:paddingTop="@dimen/_13dp" android:paddingBottom="@dimen/_13dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_icon_left" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp"/>
+    <TextView android:textSize="@dimen/_20sp" android:layout_gravity="center" android:id="@+id/txt_title_sub_screen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_music_playing" android:textAlignment="center" style="@style/defaultTitleTextStyle"/>
+    <ImageView android:layout_gravity="end" android:id="@+id/img_right_icon" android:paddingTop="@dimen/_13dp" android:paddingBottom="@dimen/_13dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_icon_left" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp"/>
+    <TextView android:gravity="center_vertical" android:layout_gravity="end" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_icon_left" android:text="@string/str_vouchers" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp"/>
+    <View android:layout_gravity="bottom" android:id="@+id/view_line_bottom" android:background="@color/colorLineDivider" android:layout_width="match_parent" android:layout_height="@dimen/_1dp"/>
+</FrameLayout>

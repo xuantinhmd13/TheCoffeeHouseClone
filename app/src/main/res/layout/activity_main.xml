@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/layout_main_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/layout_main_header"/>
+    <androidx.fragment.app.FragmentContainerView android:id="@+id/fragment_home_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_navigation" android:layout_below="@+id/layout_main_header"/>
+    <FrameLayout android:id="@+id/fragment_order_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_navigation" android:layout_below="@+id/layout_main_header"/>
+    <FrameLayout android:id="@+id/fragment_stores_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_navigation" android:layout_below="@+id/layout_main_header"/>
+    <FrameLayout android:id="@+id/fragment_rewards_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_navigation" android:layout_below="@+id/layout_main_header"/>
+    <FrameLayout android:id="@+id/fragment_more_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_navigation" android:layout_below="@+id/layout_main_header"/>
+    <com.google.android.material.bottomnavigation.BottomNavigationView android:theme="@style/Widget.BottomNavigationView" android:id="@+id/bottom_navigation" android:background="@drawable/background_solid_white_line_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:labelVisibilityMode="1" app:menu="@menu/navigation"/>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="32dp" android:width="33dp" android:viewportWidth="33" android:viewportHeight="32">
+    <path android:fillColor="@drawable/$ic_marker_selected__0" android:pathData="M5.5,11.0004C5.5,4.8993 10.4012,0 16.5004,0C22.5997,0 27.5008,4.8993 27.5008,11.0004C27.5008,21.0997 16.5004,32 16.5004,32C16.5004,32 5.5,21.0997 5.5,11.0004ZM16.5,15.5C18.9853,15.5 21,13.4853 21,11C21,8.5147 18.9853,6.5 16.5,6.5C14.0147,6.5 12,8.5147 12,11C12,13.4853 14.0147,15.5 16.5,15.5Z" android:fillType="1"/>
+</vector>

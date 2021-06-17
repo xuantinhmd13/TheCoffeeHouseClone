@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/_37dp" android:width="200dp" android:viewportWidth="343" android:viewportHeight="64">
+    <path android:fillColor="@drawable/$background_pickup_button__0" android:pathData="M8,0L335,0A8,8 0,0 1,343 8L343,56A8,8 0,0 1,335 64L8,64A8,8 0,0 1,0 56L0,8A8,8 0,0 1,8 0z"/>
+</vector>

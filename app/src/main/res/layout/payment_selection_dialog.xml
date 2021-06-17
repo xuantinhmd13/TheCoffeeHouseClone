@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/toolbar" layout="@layout/layout_sub_header_top_round_corner"/>
+        <TextView android:textSize="@dimen/_16sp" android:textColor="@color/color666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_24dp" android:text="@string/str_payment_instruction" android:fontFamily="@font/sfpt_regular" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp"/>
+        <include android:id="@+id/layout_header_payment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_25dp" layout="@layout/layout_option_product_header"/>
+        <com.thecoffeehouse.guestapp.views.CustomRadioGroup android:id="@+id/rdg_payment_method" android:background="@color/colorWhite" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

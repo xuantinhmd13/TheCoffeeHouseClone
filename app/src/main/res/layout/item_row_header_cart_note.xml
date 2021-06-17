@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/colorWhite" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:textSize="@dimen/_14sp" android:textColor="@color/colorTextTitle" android:id="@+id/edt_bill_note" android:background="@color/colorTransparent" android:padding="@dimen/_16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/str_hint_add_bill_note" android:maxLines="1" android:lines="1" android:inputType="text" android:fontFamily="@font/sfpd_regular"/>
+    <View android:layout_gravity="bottom" android:background="@color/colorLineDivider" android:layout_width="match_parent" android:layout_height="@dimen/_1dp"/>
+</FrameLayout>

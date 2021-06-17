@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/_65dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.thecoffeehouse.guestapp.screens.order.trackingorder.TrackingOrderStatusView android:id="@+id/layout_order_status" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <com.thecoffeehouse.guestapp.screens.order.trackingorder.TrackingOrderActionView android:id="@+id/layout_order_actions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp"/>
+            <com.thecoffeehouse.guestapp.screens.order.trackingorder.TrackingOrderInfoView android:id="@+id/layout_order_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp"/>
+            <include android:id="@+id/layout_order_header_items" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" layout="@layout/layout_option_product_header"/>
+            <com.thecoffeehouse.guestapp.views.OrderLineItemListView android:id="@+id/layout_tracking_item_list" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <include android:id="@+id/layout_total_header" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_4dp" layout="@layout/layout_option_product_header"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/layout_calculate_order" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>

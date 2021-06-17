@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" layout="@layout/layout_sub_header"/>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/shimmer_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:shimmer_auto_start="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/item_row_shimmer_news_and_promotions_head"/>
+            <include layout="@layout/item_row_shimmer_news_and_promotions_body"/>
+            <include layout="@layout/item_row_shimmer_news_and_promotions_body"/>
+            <include layout="@layout/item_row_shimmer_news_and_promotions_body"/>
+            <include layout="@layout/item_row_shimmer_news_and_promotions_body"/>
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.mindorks.placeholderview.PlaceHolderView android:id="@+id/phv_news_and_promotions" android:background="@color/colorBackgroundLayout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

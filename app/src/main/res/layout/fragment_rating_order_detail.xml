@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" layout="@layout/layout_sub_header_top_round_corner"/>
+    <com.thecoffeehouse.guestapp.screens.more.ratingandfeedback.ratingorderdetail.RatingOrderDetailView android:id="@+id/rating_order_detail_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/layout_send_order_rating" android:layout_below="@+id/toolbar"/>
+    <FrameLayout android:id="@+id/layout_send_order_rating" android:background="@color/colorWhite" android:paddingTop="@dimen/_16dp" android:paddingBottom="@dimen/_32dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp">
+        <com.thecoffeehouse.guestapp.views.TLButton android:textColor="@color/colorWhite" android:id="@+id/btn_rate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str_send_feedback" app:backgroundColor="@color/colorC5671B" app:corner_bot_left="@dimen/_8dp" app:corner_bot_right="@dimen/_8dp" app:corner_top_left="@dimen/_8dp" app:corner_top_right="@dimen/_8dp" style="@style/defaultTitleTextStyle"/>
+    </FrameLayout>
+</RelativeLayout>

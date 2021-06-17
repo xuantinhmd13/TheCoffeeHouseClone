@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/_20sp" android:id="@+id/txtVoucherHeader" android:paddingTop="@dimen/_16dp" android:paddingBottom="@dimen/_16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_expire_soon" android:fontFamily="@font/sfpd_bold" style="@style/defaultTitleTextStyle"/>

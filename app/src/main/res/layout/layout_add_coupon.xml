@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/layout_add_coupon" android:background="@drawable/background_corner_solid_white_shadow" android:padding="@dimen/_16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp">
+    <ImageView android:id="@+id/img_add_coupon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_coupon" android:layout_centerVertical="true"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_add_coupon" android:includeFontPadding="false" android:layout_centerVertical="true" android:layout_marginStart="@dimen/_12dp" android:layout_toEndOf="@+id/img_add_coupon" style="@style/defaultTitleTextStyle"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+</RelativeLayout>

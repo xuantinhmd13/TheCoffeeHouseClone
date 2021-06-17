@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/searchLayout" android:background="@drawable/background_solid_white" android:paddingTop="@dimen/_16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+    <include android:background="@drawable/background_corner_solid_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" layout="@layout/layout_text_search"/>
+    <View android:background="@color/colorLineSearchItem" android:layout_width="wrap_content" android:layout_height="@dimen/_1dp" android:layout_marginTop="@dimen/_16dp"/>
+</LinearLayout>

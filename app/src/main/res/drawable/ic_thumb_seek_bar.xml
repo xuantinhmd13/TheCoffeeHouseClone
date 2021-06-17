@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/_24dp" android:width="@dimen/_24dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/colorWhite"/>
+        </shape>
+    </item>
+    <item android:id="@+id/stroke" android:height="@dimen/_24dp" android:width="@dimen/_24dp">
+        <shape android:shape="oval">
+            <stroke android:width="@dimen/_2dp" android:color="@color/colorC5671B"/>
+            <solid android:color="@color/colorWhite"/>
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@+id/icon_bean" android:height="@dimen/_12dp" android:width="@dimen/_12dp" android:drawable="@drawable/ic_thumb_bean"/>
+</layer-list>

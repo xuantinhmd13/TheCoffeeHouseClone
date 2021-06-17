@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:swipe="http://schemas.android.com/apk/res-auto" android:id="@+id/swipe" android:layout_width="match_parent" android:layout_height="wrap_content" swipe:clickToClose="true" swipe:show_mode="0">
+    <include android:id="@+id/layout_action_item_cart" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/layout_swipe_product"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@+id/layout_item_cart" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/row_item_cart_info_editable"/>
+    </RelativeLayout>
+</com.daimajia.swipe.SwipeLayout>

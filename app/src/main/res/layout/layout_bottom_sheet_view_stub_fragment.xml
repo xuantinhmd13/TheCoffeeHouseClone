@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/root_view_stub" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/__8dp" app:cardBackgroundColor="@color/colorBackgroundWindow" app:cardCornerRadius="@dimen/_8dp" app:cardElevation="@dimen/_0dp">
+        <ViewStub android:id="@+id/view_stub_fragment" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+    <include android:id="@+id/layout_loading" android:visibility="gone" layout="@layout/layout_loading"/>
+</FrameLayout>

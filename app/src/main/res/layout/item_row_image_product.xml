@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.thecoffeehouse.guestapp.views.TLImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/imgImage" android:layout_width="@dimen/_180dp" android:layout_height="match_parent" android:src="@drawable/ic_launcher_background" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/_2dp" app:corner_top_left="@dimen/_8dp" app:corner_top_right="@dimen/_8dp"/>

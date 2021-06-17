@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" layout="@layout/layout_sub_header"/>
+    <ScrollView android:paddingBottom="@dimen/_103dp" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/toolbar">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/layout_address_info" android:background="@color/colorWhite" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp">
+                <include android:id="@+id/row_address_title" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_row_saved_address"/>
+                <include android:id="@+id/row_address_text" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_row_saved_address"/>
+                <include android:id="@+id/row_address_building_and_floor" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_row_saved_address"/>
+                <include android:id="@+id/row_address_gate" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_row_saved_address"/>
+                <include android:id="@+id/row_address_deli_note" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_row_saved_address"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/layout_user_info" android:background="@color/colorWhite" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp">
+                <include android:id="@+id/row_address_user_name" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_row_saved_address"/>
+                <include android:id="@+id/row_address_user_phone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout_row_saved_address"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorE40000" android:orientation="vertical" android:id="@+id/txt_delete_this_address" android:background="@color/colorWhite" android:padding="@dimen/_16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" android:text="@string/str_delete_this_address" android:drawablePadding="@dimen/_16dp" android:drawableStart="@drawable/ic_delete_saved_address" android:fontFamily="@font/sfpd_regular" android:drawableTint="@color/colorE40000"/>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:background="@color/colorWhite" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0">
+        <View android:layout_gravity="top" android:id="@+id/view_line_top" android:background="@color/colorLineDivider" android:layout_width="match_parent" android:layout_height="@dimen/_1dp"/>
+        <com.thecoffeehouse.guestapp.views.TLButton android:textSize="@dimen/_16sp" android:textColor="@color/colorWhite" android:id="@+id/btn_done" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_16dp" android:layout_marginBottom="@dimen/_24dp" android:text="@string/str_done" android:textAllCaps="false" android:fontFamily="@font/sfpt_bold" android:layout_marginStart="@dimen/_16dp" android:layout_marginEnd="@dimen/_16dp" app:backgroundColor="@color/colorC5671B" app:corner_bot_left="@dimen/_8dp" app:corner_bot_right="@dimen/_8dp" app:corner_top_left="@dimen/_8dp" app:corner_top_right="@dimen/_8dp"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

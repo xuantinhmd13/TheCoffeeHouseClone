@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="center" android:orientation="horizontal" android:background="#99e40000" android:paddingTop="@dimen/_11dp" android:paddingBottom="@dimen/_11dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/_16sp" android:textColor="@color/colorWhite" android:id="@+id/txt_title_toast" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Bạn đang không kết nối mạng" android:fontFamily="@font/sfpd_regular" android:layout_marginStart="@dimen/_18dp"/>
+</LinearLayout>

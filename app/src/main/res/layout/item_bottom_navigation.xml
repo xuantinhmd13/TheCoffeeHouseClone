@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:clipChildren="false" android:layout_width="match_parent" android:layout_height="0dp" android:layout_margin="4dp" android:layout_weight="1">
+        <com.airpay.widget.control.APImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/iv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="32dp" android:maxHeight="32dp" android:cropToPadding="false"/>
+    </FrameLayout>
+    <com.airpay.widget.control.APTextView android:textSize="10sp" android:ellipsize="marquee" android:gravity="center" android:id="@+id/tv_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:singleLine="true" android:layout_alignParentBottom="true"/>
+</merge>

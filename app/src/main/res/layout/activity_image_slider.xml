@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/colorBlack" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.thecoffeehouse.guestapp.screens.imageslider.ImageViewPager android:gravity="center" android:id="@+id/view_pager_images" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/_20sp" android:textColor="@color/colorWhite" android:layout_gravity="center" android:paddingTop="@dimen/_13dp" android:paddingBottom="@dimen/_13dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str_signature_store" android:fontFamily="@font/sfpd_regular"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/img_close_slider" android:paddingTop="@dimen/_18dp" android:paddingBottom="@dimen/_18dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_image_slider" android:paddingStart="@dimen/_16dp" android:paddingEnd="@dimen/_16dp" app:tint="@color/colorWhite"/>
+    </FrameLayout>
+</FrameLayout>
